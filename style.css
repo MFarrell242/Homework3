@@ -1,0 +1,17 @@
+h1 {
+    font-size: 30px;
+    font-style: bold;
+}
+body {
+    background-color: beige;
+}
+
+#genform {
+    background-color: beige;
+    display: block;
+    text-align: center;
+}
+
+#pwgen {
+    margin-top: 10%;
+}

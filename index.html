@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="genform">
+    <form id="pwgen">
+        <h1>How many characters shall I generate?</h1>
+        <br>
+        <input type="number" name="length" class="howlong">
+        <br><br>
+        <h1>What types of characters shall I include?</h1>
+        <br>
+        <input type="checkbox" name="lowerletter" id="LL">Lower case letters
+        <input type="checkbox" name="upperletter" id="UL">Upper case letters<br>
+        <input type="checkbox" name="numbers" id="N">Numbers
+        <input type="checkbox" name="specialchar" id="SC">Special characters (@, $, &, etc)
+
+        <br><br>
+        <input type="submit" value="Generate" class="gen">
+        <br>
+        <input type="reset" value="Reset">
+    </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
